@@ -1,0 +1,12 @@
+#ifndef LLVM_LIB_TARGET_TBSIM_TARGETINFO_TBSIMTARGETINFO_H
+#define LLVM_LIB_TARGET_TBSIM_TARGETINFO_TBSIMTARGETINFO_H
+
+namespace llvm {
+
+class Target;
+
+Target &getTheTBSimTarget();
+
+} // end namespace llvm
+
+#endif // LLVM_LIB_TARGET_TBSIM_TARGETINFO_TBSIMTARGETINFO_H

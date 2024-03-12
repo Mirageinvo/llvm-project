@@ -463,6 +463,7 @@ set(LLVM_ALL_TARGETS
   RISCV
   Sparc
   SystemZ
+  TBSim
   VE
   WebAssembly
   X86
